@@ -3,4 +3,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  transition: transform 300ms ease-in;
+}
+
+.item:hover,
+.item:focus {
+  transform: scale(1.1);
 }
